@@ -84,6 +84,7 @@ test:
 #
 production:
   <<: *default
-  database: myapp_production
-  username: myapp
-  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
+  host: ec2-54-235-240-76.compute-1.amazonaws.com
+  database: de6jc56u8olvd9
+  username: vtruugnrtcggqa
+  password: h7EX-_TBWPm_p9f8-gCmDFgOfu

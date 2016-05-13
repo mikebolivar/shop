@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  checked: false
+  user_id: 
+  post_id: 
+
+two:
+  checked: false
+  user_id: 
+  post_id: 

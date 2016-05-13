@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  comment: MyText
+  checked: false
+  shopify_comment_id: MyString
+  user_id: 
+  post_id: 
+
+two:
+  comment: MyText
+  checked: false
+  shopify_comment_id: MyString
+  user_id: 
+  post_id: 

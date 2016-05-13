@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @product.title %>
+</p>
+
+<p>
+  <strong>Body html:</strong>
+  <%= @product.body_html %>
+</p>
+
+<p>
+  <strong>Variants:</strong>
+  <%= @product.variants %>
+</p>
+
+<p>
+  <strong>Images:</strong>
+  <%= @product.images %>
+</p>
+
+<p>
+  <strong>Shopify product:</strong>
+  <%= @product.shopify_product_id %>
+</p>
+
+<p>
+  <strong>Shopify last update:</strong>
+  <%= @product.shopify_last_update %>
+</p>
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>

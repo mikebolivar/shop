@@ -1,0 +1,74 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @post.type %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @post.image %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @post.author %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @post.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @post.body %>
+</p>
+
+<p>
+  <strong>Place:</strong>
+  <%= @post.place %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @post.rating %>
+</p>
+
+<p>
+  <strong>No likes:</strong>
+  <%= @post.no_likes %>
+</p>
+
+<p>
+  <strong>No shareds:</strong>
+  <%= @post.no_shareds %>
+</p>
+
+<p>
+  <strong>No views:</strong>
+  <%= @post.no_views %>
+</p>
+
+<p>
+  <strong>No comments:</strong>
+  <%= @post.no_comments %>
+</p>
+
+<p>
+  <strong>Public:</strong>
+  <%= @post.public %>
+</p>
+
+<p>
+  <strong>Shopify article:</strong>
+  <%= @post.shopify_article_id %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @post.user %>
+</p>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>

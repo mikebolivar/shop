@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Shopify webhook:</strong>
+  <%= @webhook.shopify_webhook_id %>
+</p>
+
+<p>
+  <strong>Event:</strong>
+  <%= @webhook.event %>
+</p>
+
+<p>
+  <strong>Object json:</strong>
+  <%= @webhook.object_json %>
+</p>
+
+<%= link_to 'Edit', edit_webhook_path(@webhook) %> |
+<%= link_to 'Back', webhooks_path %>

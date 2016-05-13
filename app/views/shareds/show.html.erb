@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Via:</strong>
+  <%= @shared.via %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @shared.body %>
+</p>
+
+<p>
+  <strong>Checked:</strong>
+  <%= @shared.checked %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @shared.user %>
+</p>
+
+<p>
+  <strong>Post:</strong>
+  <%= @shared.post %>
+</p>
+
+<%= link_to 'Edit', edit_shared_path(@shared) %> |
+<%= link_to 'Back', shareds_path %>

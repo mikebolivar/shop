@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 1
+  image: MyString
+  author: MyString
+  title: MyString
+  body: MyText
+  place: MyString
+  rating: 1.5
+  no_likes: 1
+  no_shareds: 1
+  no_views: 1
+  no_comments: 1
+  public: false
+  shopify_article_id: MyString
+  user_id: 
+
+two:
+  type: 1
+  image: MyString
+  author: MyString
+  title: MyString
+  body: MyText
+  place: MyString
+  rating: 1.5
+  no_likes: 1
+  no_shareds: 1
+  no_views: 1
+  no_comments: 1
+  public: false
+  shopify_article_id: MyString
+  user_id: 

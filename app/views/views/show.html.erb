@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Checked:</strong>
+  <%= @view.checked %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @view.user %>
+</p>
+
+<p>
+  <strong>Post:</strong>
+  <%= @view.post %>
+</p>
+
+<%= link_to 'Edit', edit_view_path(@view) %> |
+<%= link_to 'Back', views_path %>
